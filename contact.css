@@ -1,0 +1,242 @@
+body {
+background-color:#1d324e ;
+font-family: sans-serif;
+
+}
+header {
+    background-image: url("img/Game.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+
+    height:453px;
+    width: 1510px;
+
+    /*height:453px;
+    width: 1550px;*/
+}
+.bc {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.kddk {
+    width: 100px;
+    background-color: #F5C061;
+}
+
+.kddk img {
+    width: 100px;
+}
+
+.btns_const {
+    display: flex;
+    gap: 10px;
+    order: 1;
+    position: absolute;
+    top: 5px;
+    right: -4px;
+}
+
+.btn {
+    width: 15px;
+    height: 15px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn:nth-child(1) {
+    background-color: white;
+}
+
+.btn:nth-child(2) {
+    background-color: black;
+}
+
+.btn:nth-child(3) {
+    background-color: blue;
+}
+
+.btn:nth-child(4) {
+    background-color: red;
+}
+
+.jfontsize {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    position: absolute;
+    top: 5px;
+    right: 320px; 
+}
+
+.jfontsize-button {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    padding: 1px 10px;
+}
+
+.jfontsize-button:hover {
+    background-color: #f0f0f0;
+}
+
+.content {
+    margin: 20px;
+}
+
+
+
+.banner {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 170px;
+}
+
+.logo-left {
+  width: 200px; 
+  height: auto;
+  margin-right: 20px; 
+  margin-top: 100px;
+}
+
+.text-container {
+  text-align: center;  
+  margin-top: 100px;
+
+}
+
+.text-container h1 {
+  margin: 0;
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.text-container p {
+  margin: 5px 0 0;
+  font-size: 20px;
+}
+
+
+.text-container p {
+    margin: 0; 
+    padding-bottom: 10px; 
+    color: #ffffff;
+}
+
+nav {
+    background: #ffffff; 
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center; 
+    max-width: 1300px; 
+    margin: 0 auto;
+}
+
+.menuItems {
+    list-style: none;
+    display: flex;
+}
+
+.menuItems li {
+    margin: 0 20px;
+}
+
+.menuItems a {
+    text-decoration: none;
+    color: #000000; 
+    font-size: 18px; 
+    font-weight: bold; 
+    transition: all 0.3s ease-in-out; 
+    position: relative; 
+    text-transform: uppercase; 
+}
+
+.menuItems a:hover {
+    color:#79A5AF; 
+    border-bottom: 4px solid #79A5AF;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto; 
+    padding: 20px;
+    border: 3px solid;
+    border-radius: 20px;
+    display: flex;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+}
+
+.left-column {
+    flex: 2;
+    padding: 40px;
+    color: black;
+}
+
+.maps {
+    margin-top: 30px;
+}
+
+.right-column {
+    flex: 2;
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contact-info {
+    font-size: 15px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+textarea {
+    height: 100px;
+}
+
+button[type="submit"] {
+    background-color: #3a649c; 
+    width: 100%;
+    color: #fff;
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button[type="submit"]:hover {
+    background-color: #497ec4;
+}

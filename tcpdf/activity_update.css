@@ -1,0 +1,127 @@
+body {
+    background-color: #1d324e;
+    overflow-y: scroll;
+}
+.container {
+    width: 50%; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #060270;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color:#497EC4;
+}
+input[type="text"], input[type="date"], input[type="file"], input[type="url"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #060270;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color:#497EC4;
+}
+.logout-btn {
+    background-color: #d9534f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.logout-btn:hover {
+    background-color: #c9302c;
+}
+.logout-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.column h1 {
+    font-size: 90px;
+    margin: 0;
+}
+.text {
+    text-align: left; 
+}
+.text h1 {
+    margin: 0;
+    font-size: 20px;
+}
+.text p {
+    margin: 7px 0 0 0;
+    font-size: 16px;
+}
+
+nav {
+    background: #ffffff; 
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center; 
+    max-width: 1300px; 
+    margin: 0 auto;
+}
+
+.menuItems {
+    list-style: none;
+    display: flex;
+}
+
+.menuItems li {
+    margin: 0 20px;
+}
+
+.menuItems a {
+    text-decoration: none;
+    color: #000000; 
+    font-size: 18px; 
+    font-weight: bold; 
+    transition: all 0.3s ease-in-out; 
+    position: relative; 
+    text-transform: uppercase; 
+}
+
+.menuItems a:hover {
+    color:#79A5AF; 
+    border-bottom: 4px solid #79A5AF;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
